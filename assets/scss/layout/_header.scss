@@ -1,0 +1,14 @@
+.logo {
+  width: 80px;
+}
+@media (max-width: 768px) {
+  .nav-item {
+    width: 50%;
+    text-align: center;
+    border: 1px solid white;
+  }
+  .nav-link {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}

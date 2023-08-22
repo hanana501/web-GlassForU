@@ -1,0 +1,39 @@
+// * {
+//   outline: 1px solid #fff;
+// }
+.bg-img {
+  background: url("/assets/images/home-header.png") no-repeat center center;
+  background-size: cover;
+  .container {
+    padding-top: 296px;
+    padding-bottom: 296px;
+  }
+}
+.buyLink {
+  padding: 6px 12px;
+}
+.bg-info {
+  img {
+    width: 100px;
+  }
+}
+.bg-img2 {
+  background: url("/assets/images/index-bg.png") no-repeat center center;
+  background-size: cover;
+}
+.card-body {
+  height: 205px;
+}
+@media (max-width: 768px) {
+  .bg-img {
+    background: url("/assets/images/home-header-sm.png") no-repeat center center;
+    background-size: cover;
+
+    .fs-2 {
+      font-size: 16px !important;
+    }
+    .display-3 {
+      font-size: 24px !important;
+    }
+  }
+}
