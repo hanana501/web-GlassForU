@@ -298,29 +298,25 @@ $cyans: (
 // fusv-enable
 
 // scss-docs-start theme-color-variables
-$primary: $blue !default;
-$secondary: $gray-600 !default;
+$primary: #aa0601 !default; //new
+$secondary: #650300 !default; // new
 $success: $green !default;
-$info: $cyan !default;
+$info: #fbf2f2 !default; // new
 $warning: $yellow !default;
 $danger: $red !default;
-$light: $gray-100 !default;
+$light: #707070 !default; // new
 $dark: $gray-900 !default;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary": #aa0601,
-  // new
-  "secondary": #650300,
-  // new
+  "primary": $primary,
+  "secondary": $secondary,
   "success": $success,
-  "info": #fbf2f2,
-  // new
+  "info": $info,
   "warning": $warning,
   "danger": $danger,
-  "light": #707070,
-  // new
+  "light": $light,
   "dark": $dark,
 ) !default;
 // scss-docs-end theme-colors-map
@@ -396,6 +392,8 @@ $spacers: (
   // new 48
   7: $spacer * 5,
   // new 80
+  8: $spacer * 6,
+  // new 96
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -497,6 +495,8 @@ $border-widths: (
   3: 3px,
   4: 4px,
   5: 5px,
+  8: 8px,
+  // new
 ) !default;
 
 $border-style: solid !default;
