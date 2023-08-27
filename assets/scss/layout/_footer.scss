@@ -2,7 +2,7 @@ footer {
   img {
     width: 48px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 376px) {
     .container {
       position: relative;
     }
@@ -15,6 +15,12 @@ footer {
     }
     .contact {
       padding-bottom: 20px;
+    }
+    .contact-text {
+      font-size: 16px !important ;
+    }
+    img {
+      width: 24px;
     }
     .copyRight {
       padding-top: 20px;

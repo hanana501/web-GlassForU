@@ -24,7 +24,24 @@
 .card-body {
   height: 205px;
 }
-@media (max-width: 768px) {
+.feedback {
+  height: 136px;
+  resize: none;
+  &::-webkit-scrollbar {
+    // 設定整體的scrollbar樣式
+    width: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    // 設定bar的樣式
+    border-radius: 3px;
+    background-color: $primary;
+  }
+  // &::-webkit-scrollbar-track {
+  //   // 軌道的樣式
+  // }
+}
+
+@media (max-width: 576px) {
   .bg-img {
     background: url("/assets/images/home-header-sm.png") no-repeat center center;
     background-size: cover;

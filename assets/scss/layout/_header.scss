@@ -1,7 +1,17 @@
 .logo {
   width: 80px;
 }
-@media (max-width: 768px) {
+.nav-item:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 376px) {
+  header {
+    .container {
+      padding: 0;
+      margin: 0;
+    }
+  }
   .nav-item {
     width: 50%;
     text-align: center;
