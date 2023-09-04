@@ -2,7 +2,10 @@ footer {
   img {
     width: 48px;
   }
-  @media (max-width: 376px) {
+  .material-symbols-outlined {
+    font-size: 48px;
+  }
+  @media (max-width: 768px) {
     .container {
       position: relative;
     }
@@ -21,6 +24,9 @@ footer {
     }
     img {
       width: 24px;
+    }
+    .material-symbols-outlined {
+      font-size: 24px;
     }
     .copyRight {
       padding-top: 20px;

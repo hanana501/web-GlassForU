@@ -45,6 +45,11 @@
   .bg-img {
     background: url("/assets/images/home-header-sm.png") no-repeat center center;
     background-size: cover;
+    height: 396px;
+    .container {
+      padding-top: 144px;
+      padding-bottom: 144px;
+    }
 
     .fs-2 {
       font-size: 16px !important;
